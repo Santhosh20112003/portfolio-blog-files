@@ -1,0 +1,23 @@
+---
+title: sample blog
+slug: sample-blog
+date: '2026-07-14T20:37:04.556Z'
+updatedAt: '2026-07-14T20:37:04.556Z'
+updatedBy: Santhosh Shanmugam
+updatedByPhoto: >-
+  https://lh3.googleusercontent.com/a/ACg8ocJbsQQd9QUvAQveTOEXgyH1WVnsYUDrhvRiE0L6npOVbG0wwYWJ=s96-c
+description: sample bog
+tags:
+  - sample
+  - blog
+cover: >-
+  https://raw.githubusercontent.com/Santhosh20112003/portfolio-blog-files/main/assets/images/1784061346304-free-photo-of-student-taking-exam-in-classroom-setting.webp?updatedAt=1784061359937
+canonical: https://astrablogs.vercel.app//blog/sample-blog
+seoTitle: Sample Blog
+seoDescription: sample bog
+seoKeywords:
+  - sample
+status: published
+---
+
+![1784061346304 free photo of student taking exam in classroom setting](https://raw.githubusercontent.com/Santhosh20112003/portfolio-blog-files/main/assets/images/1784061346304-free-photo-of-student-taking-exam-in-classroom-setting.webp)sample bog
