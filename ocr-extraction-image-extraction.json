@@ -1,0 +1,245 @@
+{
+  "name": "ocr-extraction-image-extraction",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "0be446a2-4fef-407b-85e1-fd077d3db7d8",
+        "responseMode": "responseNode",
+        "options": {
+          "binaryPropertyName": "data"
+        }
+      },
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2.1,
+      "position": [
+        -816,
+        32
+      ],
+      "id": "4d79ca3a-4224-47a9-ba06-4b170052340b",
+      "name": "Webhook",
+      "webhookId": "0be446a2-4fef-407b-85e1-fd077d3db7d8"
+    },
+    {
+      "parameters": {
+        "options": {}
+      },
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.5,
+      "position": [
+        864,
+        192
+      ],
+      "id": "2e857939-dbb2-4523-b562-237628a1e590",
+      "name": "Respond to Webhook"
+    },
+    {
+      "parameters": {
+        "jsCode": "return $input.all().map(item => {\n  const text = item.json?.candidates?.[0]?.content?.parts?.[0]?.text ?? null;\n\n  let clean = null;\n  let parsed = null;\n  let error = null;\n\n  if (typeof text === 'string' && text.trim()) {\n    clean = text\n      .replace(/^```json\\s*/i, '')\n      .replace(/^```\\s*/i, '')\n      .replace(/\\s*```$/i, '')\n      .trim();\n\n    try {\n      parsed = JSON.parse(clean);\n\n      // Gemini always normalizes bounding boxes to a 0-1000 grid,\n      // regardless of the source image's real resolution.\n      if (parsed && Array.isArray(parsed.detections)) {\n        parsed.image_width = 1000;\n        parsed.image_height = 1000;\n      }\n    } catch (err) {\n      error = { message: err.message, raw: clean };\n    }\n  } else {\n    error = { message: 'No valid text found', raw: text };\n  }\n\n  return {\n    json: {\n      success: parsed !== null,\n      data: parsed,\n      error: error\n    }\n  };\n});"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        -176,
+        32
+      ],
+      "id": "11e7b173-5167-411d-b9b8-3766e5c996a1",
+      "name": "convert json md to plain json2"
+    },
+    {
+      "parameters": {
+        "resource": "document",
+        "modelId": {
+          "__rl": true,
+          "value": "models/gemini-3.5-flash",
+          "mode": "list",
+          "cachedResultName": "models/gemini-3.5-flash"
+        },
+        "text": "=You are a Document Signature Detection Agent.\n\nAnalyze the uploaded document page.\n\nYour task is ONLY to detect:\n\n1. Handwritten signatures\n2. Digital signatures\n3. Company stamps\n4. Official seals\n\nIgnore all other text.\n\nReturn ONLY valid JSON.\n\nSchema:\n\n{\n  \"page\": 1,\n  \"detections\": [\n    {\n      \"type\": \"signature\",\n      \"confidence\": 0.98,\n      \"bounding_box\": {\n        \"x\": 120,\n        \"y\": 640,\n        \"width\": 220,\n        \"height\": 85\n      }\n    },\n    {\n      \"type\": \"stamp\",\n      \"confidence\": 0.94,\n      \"bounding_box\": {\n        \"x\": 420,\n        \"y\": 610,\n        \"width\": 130,\n        \"height\": 130\n      }\n    }\n  ]\n}\n\nRules:\n\n- Return pixel coordinates.\n- Origin is top-left.\n- If nothing exists return:\n{\n  \"page\": 1,\n  \"detections\": []\n}\n- Never explain.\n- Never return markdown.\n- Output JSON only.",
+        "inputType": "binary",
+        "binaryPropertyName": "data0",
+        "simplify": false,
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.googleGemini",
+      "typeVersion": 1.1,
+      "position": [
+        -448,
+        32
+      ],
+      "id": "266de11f-f5fa-4c8d-8ea6-a811f95ec60f",
+      "name": "OCR1",
+      "credentials": {
+        "googlePalmApi": {
+          "id": "N2Q0FudmAcgPxwbx",
+          "name": "Google Gemini(PaLM) Api account"
+        }
+      }
+    },
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.merge",
+      "typeVersion": 3.2,
+      "position": [
+        96,
+        192
+      ],
+      "id": "24adb6c2-70c1-4dbf-9aae-c9ab5d978840",
+      "name": "Merge"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "http://172.18.0.200:1024/upload",
+        "sendBody": true,
+        "contentType": "multipart-form-data",
+        "bodyParameters": {
+          "parameters": [
+            {
+              "parameterType": "formBinaryData",
+              "name": "file",
+              "inputDataFieldName": "data0"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.3,
+      "position": [
+        -352,
+        320
+      ],
+      "id": "70d6178c-c123-457c-9664-1c6f89eb59b8",
+      "name": "HTTP Request1"
+    },
+    {
+      "parameters": {
+        "jsCode": "const items = $input.all();\n\nlet filename = null;\nconst detections = [];\n\nfor (const item of items) {\n  const json = item.json;\n\n  if (json.filename) {\n    filename = json.filename;\n  } else if (json.success !== undefined) {\n    detections.push(json);\n  }\n}\n\nreturn [\n  {\n    json: {\n      data:{\n      filename,\n      detections\n    }\n    }\n  }\n];"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        304,
+        192
+      ],
+      "id": "fb1dc5b4-e88c-4b39-839d-a4080e1ada1c",
+      "name": "Code in JavaScript"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "http://172.18.0.200:1024/crop",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ $json.data }}",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.3,
+      "position": [
+        544,
+        192
+      ],
+      "id": "0320676f-1b82-475d-bf4c-db3b3cce6770",
+      "name": "HTTP Request"
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "Webhook": {
+      "main": [
+        [
+          {
+            "node": "OCR1",
+            "type": "main",
+            "index": 0
+          },
+          {
+            "node": "HTTP Request1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "OCR1": {
+      "main": [
+        [
+          {
+            "node": "convert json md to plain json2",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "convert json md to plain json2": {
+      "main": [
+        [
+          {
+            "node": "Merge",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Merge": {
+      "main": [
+        [
+          {
+            "node": "Code in JavaScript",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "HTTP Request1": {
+      "main": [
+        [
+          {
+            "node": "Merge",
+            "type": "main",
+            "index": 1
+          }
+        ]
+      ]
+    },
+    "Code in JavaScript": {
+      "main": [
+        [
+          {
+            "node": "HTTP Request",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "HTTP Request": {
+      "main": [
+        [
+          {
+            "node": "Respond to Webhook",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": true,
+  "settings": {
+    "executionOrder": "v1",
+    "availableInMCP": false
+  },
+  "versionId": "ddc1f615-9e62-4d1a-8b2f-650dba21c770",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "eaeff6c9c702caf0052d50182100804623ac05169d107a568816bfc47284b03f"
+  },
+  "id": "lPDysJHiPM8XX5ky",
+  "tags": []
+}
