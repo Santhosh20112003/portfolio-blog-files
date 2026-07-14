@@ -2,7 +2,7 @@
 title: 'The Dawn of Agentic AI: From Passive Assistants to Autonomous Executives'
 slug: the-dawn-of-agentic-ai-from-passive-assistants-to-autonomous-executives
 date: '2026-07-14T20:37:04.556Z'
-updatedAt: '2026-07-14T21:43:50.602Z'
+updatedAt: '2026-07-14T21:45:56.214Z'
 updatedBy: Santhosh Shanmugam
 updatedByPhoto: >-
   https://lh3.googleusercontent.com/a/ACg8ocJbsQQd9QUvAQveTOEXgyH1WVnsYUDrhvRiE0L6npOVbG0wwYWJ=s96-c
@@ -64,7 +64,7 @@ Unlike traditional automated scripts, which follow rigid `if/then` pathways, Age
 
 To understand how Agentic AI works, it helps to look at the architectural framework that transforms a standard LLM into an autonomous agent. Generally, an agent consists of four core components:
 
-![1784065362195 1780052930273 Gemini Generated Image 5s4vi55s4vi55s4v (1)](https://raw.githubusercontent.com/Santhosh20112003/portfolio-blog-files/main/assets/images/1784065362195-1780052930273-Gemini_Generated_Image_5s4vi55s4vi55s4v-(1).png)
+![1784065511793 imgss](https://raw.githubusercontent.com/Santhosh20112003/portfolio-blog-files/main/assets/images/1784065511793-imgss.png)
 
 ### 1. The Core LLM (The Brain)
 The foundational LLM serves as the central engine for reasoning, understanding semantics, and decision-making. 
