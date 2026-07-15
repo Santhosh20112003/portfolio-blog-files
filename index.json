@@ -142,5 +142,41 @@
       "reasoning"
     ],
     "status": "published"
+  },
+  {
+    "title": "How to Structure Content So AI Search Engines Cite You as the Primary Source",
+    "slug": "how-to-structure-content-so-ai-search-engines-cite-you-as-the-primary-source",
+    "date": "2026-07-15T11:12:22.662Z",
+    "updatedAt": "2026-07-15T11:12:22.662Z",
+    "updatedBy": "Santhosh Shanmugam",
+    "updatedByPhoto": "https://lh3.googleusercontent.com/a/ACg8ocJbsQQd9QUvAQveTOEXgyH1WVnsYUDrhvRiE0L6npOVbG0wwYWJ=s96-c",
+    "description": "Traditional SEO focused on helping websites rank on search engine result pages. But today, millions of users are turning to AI platforms like ChatGPT, Gemini, Copilot, Perplexity, and other generative search engines to get direct answers instantly.",
+    "tags": [
+      "content",
+      "search",
+      "visibility",
+      "trust",
+      "optimization",
+      "website",
+      "answer",
+      "best"
+    ],
+    "cover": "https://res.cloudinary.com/djexzbqvx/image/upload/v1776794711/%22website-blog-images%22/Gemini_Generated_Image_905iy2905iy2905i_fhx6z0.png",
+    "canonical": "https://saandy.in/blog/how-to-structure-content-so-ai-search-engines-cite-you-as-the-primary-source",
+    "seoTitle": "How to Structure Content for AI Citations (GEO Guide)",
+    "seoDescription": "Master Generative Engine Optimization (GEO). Learn how to structure your content so AI search engines like ChatGPT and Perplexity cite you as a source.",
+    "seoKeywords": [
+      "content",
+      "search",
+      "visibility",
+      "trust",
+      "optimization",
+      "website",
+      "answer",
+      "best",
+      "blog",
+      "authentication"
+    ],
+    "status": "published"
   }
 ]
