@@ -1,41 +1,5 @@
 [
   {
-    "title": "Claude Mythos: The AI Model That Changed the Security Conversation in 2026",
-    "slug": "claude-mythos-the-ai-model-that-changed-the-security-conversation-in-2026",
-    "date": "2026-07-15T05:12:38.954Z",
-    "updatedAt": "2026-07-15T05:12:38.954Z",
-    "updatedBy": "Santhosh Shanmugam",
-    "updatedByPhoto": "https://lh3.googleusercontent.com/a/ACg8ocJbsQQd9QUvAQveTOEXgyH1WVnsYUDrhvRiE0L6npOVbG0wwYWJ=s96-c",
-    "description": "Claude Mythos marks a significant shift in AI development, moving beyond consumer chatbots toward specialized, autonomous models designed for complex cybersecurity reasoning and infrastructure analysis. By prioritizing deep system understanding and secure execution, this model represents a new category of enterprise-grade AI that is reshaping the future of software engineering and security.",
-    "tags": [
-      "mythos",
-      "claude",
-      "systems",
-      "model",
-      "security",
-      "gemini",
-      "review",
-      "real"
-    ],
-    "cover": "https://raw.githubusercontent.com/Santhosh20112003/portfolio-blog-files/main/assets/images/1784092268516-Gemini_Generated_Image_pw1f96pw1f96pw1f_stkyvi.png?updatedAt=1784092278266",
-    "canonical": "https://astrablogs.vercel.app/blog/claude-mythos-the-ai-model-that-changed-the-security-conversation-in-2026",
-    "seoTitle": "Claude Mythos: The Future of AI Security and Reasoning",
-    "seoDescription": "Discover why Claude Mythos is redefining AI, shifting the focus from chatbots to autonomous cybersecurity, infrastructure reasoning, and enterprise security.",
-    "seoKeywords": [
-      "mythos",
-      "claude",
-      "systems",
-      "model",
-      "security",
-      "gemini",
-      "review",
-      "real",
-      "infrastructure",
-      "reasoning"
-    ],
-    "status": "published"
-  },
-  {
     "title": "What is Agentic AI? The Future of Autonomous Systems",
     "slug": "what-is-agentic-ai-the-future-of-autonomous-systems",
     "date": "2026-07-15T06:43:04.771Z",
@@ -140,6 +104,42 @@
       "context",
       "traditional",
       "generation"
+    ],
+    "status": "published"
+  },
+  {
+    "title": "Claude Mythos: Why the Shift to Infrastructure AI Is Changing Cybersecurity in 2026",
+    "slug": "claude-mythos-why-the-shift-to-infrastructure-ai-is-changing-cybersecurity-in-2026",
+    "date": "2026-07-15T06:49:52.389Z",
+    "updatedAt": "2026-07-15T06:49:52.389Z",
+    "updatedBy": "Santhosh Shanmugam",
+    "updatedByPhoto": "https://lh3.googleusercontent.com/a/ACg8ocJbsQQd9QUvAQveTOEXgyH1WVnsYUDrhvRiE0L6npOVbG0wwYWJ=s96-c",
+    "description": "Artificial Intelligence models are no longer judged only by how well they chat, summarize text, or write code.\r\n\r\nIn 2026, the conversation changed.\r\n\r\nThe focu",
+    "tags": [
+      "mythos",
+      "claude",
+      "systems",
+      "model",
+      "security",
+      "gemini",
+      "review",
+      "real"
+    ],
+    "cover": "https://raw.githubusercontent.com/Santhosh20112003/portfolio-blog-files/main/assets/images/1784092268516-Gemini_Generated_Image_pw1f96pw1f96pw1f_stkyvi.png?updatedAt=1784092278266",
+    "canonical": "https://saandy.in/blog/claude-mythos-why-the-shift-to-infrastructure-ai-is-changing-cybersecurity-in-2026",
+    "seoTitle": "Claude Mythos: The Rise of Infrastructure AI in Cybersecurity",
+    "seoDescription": "Artificial Intelligence models are no longer judged only by how well they chat, summarize text, or write code.\r\n\r\nIn 2026, the conversation changed.\r\n\r\nThe focu",
+    "seoKeywords": [
+      "mythos",
+      "claude",
+      "systems",
+      "model",
+      "security",
+      "gemini",
+      "review",
+      "real",
+      "infrastructure",
+      "reasoning"
     ],
     "status": "published"
   }
