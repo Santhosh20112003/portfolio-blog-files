@@ -1,41 +1,5 @@
 [
   {
-    "title": "Vector Visualization: Seeing Embeddings in 3D Space with PCA",
-    "slug": "vector-visualization-seeing-embeddings-in-3d-space-with-pca",
-    "date": "2026-07-15T05:06:05.565Z",
-    "updatedAt": "2026-07-15T05:06:05.565Z",
-    "updatedBy": "Santhosh Shanmugam",
-    "updatedByPhoto": "https://lh3.googleusercontent.com/a/ACg8ocJbsQQd9QUvAQveTOEXgyH1WVnsYUDrhvRiE0L6npOVbG0wwYWJ=s96-c",
-    "description": "Vector embeddings are the foundation of modern AI systems such as semantic search, recommendation engines, Retrieval-Augmented Generation",
-    "tags": [
-      "visualization",
-      "embeddings",
-      "vector",
-      "embedding",
-      "query",
-      "vectors",
-      "models",
-      "principal"
-    ],
-    "cover": "https://res.cloudinary.com/djexzbqvx/image/upload/v1776788686/%22website-blog-images%22/Gemini_Generated_Image_ogfmt3ogfmt3ogfm_wcckds.png",
-    "canonical": "https://astrablogs.vercel.app//blog/vector-visualization-seeing-embeddings-in-3d-space-with-pca",
-    "seoTitle": "Vector Visualization: Seeing Embeddings in 3D Space with PCA",
-    "seoDescription": "Vector embeddings are the foundation of modern AI systems such as semantic search, recommendation engines, Retrieval-Augmented Generation",
-    "seoKeywords": [
-      "visualization",
-      "embeddings",
-      "vector",
-      "embedding",
-      "query",
-      "vectors",
-      "models",
-      "principal",
-      "component",
-      "systems"
-    ],
-    "status": "published"
-  },
-  {
     "title": "🚀 Building Smarter AI: A Complete Guide to RAG Chatbots",
     "slug": "building-smarter-ai-a-complete-guide-to-rag-chatbots",
     "date": "2026-07-15T05:09:07.384Z",
@@ -140,6 +104,42 @@
       "world",
       "long",
       "frameworks"
+    ],
+    "status": "published"
+  },
+  {
+    "title": "Visualizing AI Embeddings: How to Map High-Dimensional Vectors in 3D Space with PCA",
+    "slug": "visualizing-ai-embeddings-how-to-map-high-dimensional-vectors-in-3d-space-with-pca",
+    "date": "2026-07-15T06:45:04.361Z",
+    "updatedAt": "2026-07-15T06:45:04.361Z",
+    "updatedBy": "Santhosh Shanmugam",
+    "updatedByPhoto": "https://lh3.googleusercontent.com/a/ACg8ocJbsQQd9QUvAQveTOEXgyH1WVnsYUDrhvRiE0L6npOVbG0wwYWJ=s96-c",
+    "description": "Vector embeddings are the foundation of modern AI systems such as semantic search, recommendation engines, Retrieval-Augmented Generation",
+    "tags": [
+      "visualization",
+      "embeddings",
+      "vector",
+      "embedding",
+      "query",
+      "vectors",
+      "models",
+      "principal"
+    ],
+    "cover": "https://res.cloudinary.com/djexzbqvx/image/upload/v1776788686/%22website-blog-images%22/Gemini_Generated_Image_ogfmt3ogfmt3ogfm_wcckds.png",
+    "canonical": "https://saandy.in/blog/visualizing-ai-embeddings-how-to-map-high-dimensional-vectors-in-3d-space-with-pca",
+    "seoTitle": "Visualize AI Embeddings in 3D Space with PCA",
+    "seoDescription": "Learn how to visualize high-dimensional AI embeddings in 3D space using PCA. Improve your RAG, search, and clustering performance with interactive mapping.",
+    "seoKeywords": [
+      "visualization",
+      "embeddings",
+      "vector",
+      "embedding",
+      "query",
+      "vectors",
+      "models",
+      "principal",
+      "component",
+      "systems"
     ],
     "status": "published"
   }
