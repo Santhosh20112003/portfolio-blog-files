@@ -70,5 +70,41 @@
       "generation"
     ],
     "status": "published"
+  },
+  {
+    "title": "Vector Visualization: Seeing Embeddings in 3D Space with PCA",
+    "slug": "vector-visualization-seeing-embeddings-in-3d-space-with-pca",
+    "date": "2026-07-15T10:38:50.528Z",
+    "updatedAt": "2026-07-15T10:38:50.528Z",
+    "updatedBy": "Santhosh Shanmugam",
+    "updatedByPhoto": "https://lh3.googleusercontent.com/a/ACg8ocJbsQQd9QUvAQveTOEXgyH1WVnsYUDrhvRiE0L6npOVbG0wwYWJ=s96-c",
+    "description": "Vector embeddings are the foundation of modern AI systems such as semantic search, recommendation engines, Retrieval-Augmented Generation (RAG), clustering, and",
+    "tags": [
+      "visualization",
+      "embeddings",
+      "vector",
+      "embedding",
+      "query",
+      "vectors",
+      "models",
+      "principal"
+    ],
+    "cover": "https://raw.githubusercontent.com/Santhosh20112003/portfolio-blog-files/main/assets/images/1784111856087-Gemini_Generated_Image_ogfmt3ogfmt3ogfm_wcckds.png?updatedAt=1784111877681",
+    "canonical": "https://saandy.in/blog/vector-visualization-seeing-embeddings-in-3d-space-with-pca",
+    "seoTitle": "Vector Visualization: Seeing Embeddings in 3D Space with PCA",
+    "seoDescription": "Vector embeddings are the foundation of modern AI systems such as semantic search, recommendation engines, Retrieval-Augmented Generation (RAG), clustering, and",
+    "seoKeywords": [
+      "visualization",
+      "embeddings",
+      "vector",
+      "embedding",
+      "query",
+      "vectors",
+      "models",
+      "principal",
+      "component",
+      "systems"
+    ],
+    "status": "published"
   }
 ]
