@@ -178,5 +178,41 @@
       "authentication"
     ],
     "status": "published"
+  },
+  {
+    "title": "🤖 Build a Self-Optimizing AI Agent That Continuously Learns From Feedback",
+    "slug": "build-a-self-optimizing-ai-agent-that-continuously-learns-from-feedback",
+    "date": "2026-07-15T11:33:05.563Z",
+    "updatedAt": "2026-07-15T11:33:05.563Z",
+    "updatedBy": "Santhosh Shanmugam",
+    "updatedByPhoto": "https://lh3.googleusercontent.com/a/ACg8ocJbsQQd9QUvAQveTOEXgyH1WVnsYUDrhvRiE0L6npOVbG0wwYWJ=s96-c",
+    "description": "Learn how to design and build AI agents that continuously improve using feedback, reinforcement learning, and dynamic skill memory for smarter, adaptive performance.",
+    "tags": [
+      "feedback",
+      "learning",
+      "systems",
+      "system",
+      "self",
+      "skill",
+      "agent",
+      "loop"
+    ],
+    "cover": "https://ik.imagekit.io/Rtym/Website-Blogs-Images/-build-a-self-optimizing-ai-agent-that-continuously-learns-from-feedback",
+    "canonical": "https://saandy.in/blog/build-a-self-optimizing-ai-agent-that-continuously-learns-from-feedback",
+    "seoTitle": "How to Build a Self-Optimizing AI Agent That Learns",
+    "seoDescription": "Discover how to build a self-improving AI agent using reinforcement learning, RAG, and feedback loops to create adaptive, intelligent systems that evolve over time.",
+    "seoKeywords": [
+      "feedback",
+      "learning",
+      "systems",
+      "system",
+      "self",
+      "skill",
+      "agent",
+      "loop",
+      "reward",
+      "time"
+    ],
+    "status": "published"
   }
 ]
