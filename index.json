@@ -34,5 +34,41 @@
       "frameworks"
     ],
     "status": "published"
+  },
+  {
+    "title": "🚀 Building Smarter AI: A Complete Guide to RAG Chatbots",
+    "slug": "-building-smarter-ai-a-complete-guide-to-rag-chatbots",
+    "date": "2026-07-15T08:01:30.359Z",
+    "updatedAt": "2026-07-15T08:01:30.359Z",
+    "updatedBy": "Santhosh Shanmugam",
+    "updatedByPhoto": "https://lh3.googleusercontent.com/a/ACg8ocJbsQQd9QUvAQveTOEXgyH1WVnsYUDrhvRiE0L6npOVbG0wwYWJ=s96-c",
+    "description": "RAG chatbots combine AI language models with real-time data retrieval to deliver accurate, context-aware, and up-to-date responses.",
+    "tags": [
+      "data",
+      "chatbots",
+      "systems",
+      "real",
+      "retrieval",
+      "time",
+      "knowledge",
+      "context"
+    ],
+    "cover": "https://raw.githubusercontent.com/Santhosh20112003/portfolio-blog-files/main/assets/images/1784092093300-Gemini_Generated_Image_9j2t999j2t99999j2t.webp?updatedAt=1784102468219",
+    "canonical": "https://saandy.in/blog/-building-smarter-ai-a-complete-guide-to-rag-chatbots",
+    "seoTitle": "🚀 Building Smarter AI: A Complete Guide to RAG Chatbots",
+    "seoDescription": "Learn how RAG (Retrieval-Augmented Generation) chatbots combine LLMs with real-time data retrieval to deliver more accurate, context-aware, and reliable AI responses for modern applications.",
+    "seoKeywords": [
+      "data",
+      "chatbots",
+      "systems",
+      "real",
+      "retrieval",
+      "time",
+      "knowledge",
+      "context",
+      "traditional",
+      "generation"
+    ],
+    "status": "published"
   }
 ]
