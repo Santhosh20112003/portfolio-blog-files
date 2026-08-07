@@ -214,5 +214,41 @@
       "time"
     ],
     "status": "published"
+  },
+  {
+    "title": "The Evolution of Autonomy: How AI Agents Learn and Master New Skills",
+    "slug": "the-evolution-of-autonomy-how-ai-agents-learn-and-master-new-skills",
+    "date": "2026-08-07T04:22:57.312Z",
+    "updatedAt": "2026-08-07T04:22:57.312Z",
+    "updatedBy": "Santhosh Shanmugam",
+    "updatedByPhoto": "https://lh3.googleusercontent.com/a/ACg8ocJbsQQd9QUvAQveTOEXgyH1WVnsYUDrhvRiE0L6npOVbG0wwYWJ=s96-c",
+    "description": "In the early days of AI, agents were rigid. They followed \"if-then\" logic, performing only the tasks they were explicitly programmed to do. Today, we are witnes",
+    "tags": [
+      "agents",
+      "learning",
+      "skills",
+      "learn",
+      "self",
+      "autonomous",
+      "knowledge",
+      "specific"
+    ],
+    "cover": "",
+    "canonical": "https://saandy.in/blog/the-evolution-of-autonomy-how-ai-agents-learn-and-master-new-skills",
+    "seoTitle": "The Evolution of Autonomy: How AI Agents Learn and Master New Skills",
+    "seoDescription": "In the early days of AI, agents were rigid. They followed \"if-then\" logic, performing only the tasks they were explicitly programmed to do. Today, we are witnes",
+    "seoKeywords": [
+      "agents",
+      "learning",
+      "skills",
+      "learn",
+      "self",
+      "autonomous",
+      "knowledge",
+      "specific",
+      "acquire",
+      "like"
+    ],
+    "status": "draft"
   }
 ]
