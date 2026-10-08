@@ -330,39 +330,32 @@
     "status": "published"
   },
   {
-    "title": "DeepAgents: Mastering Autonomous Workflows with the Harness Framework by LangChain",
+    "title": "DeepAgents & LangChain: Building Autonomous AI Workflows",
     "slug": "deepagents-mastering-autonomous-workflows-with-the-harness-framework-by-langchain",
     "date": "2026-10-08T10:16:08.435Z",
-    "updatedAt": "2026-10-08T10:16:08.435Z",
+    "updatedAt": "2026-10-08T10:29:53.746Z",
     "updatedBy": "Santhosh Shanmugam",
     "updatedByPhoto": "https://lh3.googleusercontent.com/a/ACg8ocJbsQQd9QUvAQveTOEXgyH1WVnsYUDrhvRiE0L6npOVbG0wwYWJ=s96-c",
-    "description": "In the rapidly evolving landscape of Artificial Intelligence, the transition from simple prompt-response models to autonomous, goal-oriented agents represents t",
+    "description": "Learn how to build production-grade autonomous workflows with the DeepAgents harness framework for LangChain. Explore architecture, guardrails, and setup.",
     "tags": [
-      "deepagents",
-      "agent",
-      "harness",
-      "execution",
-      "tools",
-      "step",
+      "artificial intelligence",
       "langchain",
-      "reasoning"
+      "autonomous agents",
+      "software engineering",
+      "llm"
     ],
-    "cover": "",
+    "cover": "https://raw.githubusercontent.com/Santhosh20112003/portfolio-blog-files/main/assets/images/1791454390764-a2a2d3f8-2c78-4d55-bb19-c0ba22c4f45f.webp",
     "canonical": "https://saandy.in/blog/deepagents-mastering-autonomous-workflows-with-the-harness-framework-by-langchain",
-    "seoTitle": "DeepAgents: Mastering Autonomous Workflows with the Harness Framework by LangChain",
-    "seoDescription": "In the rapidly evolving landscape of Artificial Intelligence, the transition from simple prompt-response models to autonomous, goal-oriented agents represents t",
+    "seoTitle": "DeepAgents & LangChain: Building Autonomous AI Workflows",
+    "seoDescription": "Learn how to build production-grade autonomous workflows with the DeepAgents harness framework for LangChain. Explore architecture, guardrails, and setup.",
     "seoKeywords": [
-      "deepagents",
-      "agent",
-      "harness",
-      "execution",
-      "tools",
-      "step",
-      "langchain",
-      "reasoning",
-      "observability",
-      "autonomous"
+      "autonomous AI agents",
+      "LangChain harness framework",
+      "agentic workflows",
+      "LangChain AgentExecutor",
+      "LLM guardrails",
+      "LangSmith observability"
     ],
-    "status": "draft"
+    "status": "published"
   }
 ]
