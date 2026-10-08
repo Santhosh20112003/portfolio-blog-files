@@ -3,7 +3,7 @@ title: 'DeepAgents & LangChain: Building Autonomous AI Workflows'
 slug: >-
   deepagents-mastering-autonomous-workflows-with-the-harness-framework-by-langchain
 date: '2026-10-08T10:16:08.435Z'
-updatedAt: '2026-10-08T10:29:53.746Z'
+updatedAt: '2026-10-08T10:32:38.848Z'
 updatedBy: Santhosh Shanmugam
 updatedByPhoto: >-
   https://lh3.googleusercontent.com/a/ACg8ocJbsQQd9QUvAQveTOEXgyH1WVnsYUDrhvRiE0L6npOVbG0wwYWJ=s96-c
@@ -64,8 +64,6 @@ Agents change how work gets done. An agent uses a foundation model as a reasonin
 Pure autonomy can lead to unpredictable behavior. This is why DeepAgents introduces an execution **Harness**.
 
 Think of the Harness as your agent's control plane. It wraps the model and tools together. It enforces guardrails, saves state checkpoints, handles retries, and collects telemetry. With this harness, an unpredictable model becomes a stable software component that fits into enterprise CI/CD pipelines.
-
----
 
 ## 2. Core Architecture of DeepAgents
 
