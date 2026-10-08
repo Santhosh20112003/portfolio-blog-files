@@ -328,5 +328,41 @@
       "AI cybersecurity."
     ],
     "status": "published"
+  },
+  {
+    "title": "DeepAgents: Mastering Autonomous Workflows with the Harness Framework by LangChain",
+    "slug": "deepagents-mastering-autonomous-workflows-with-the-harness-framework-by-langchain",
+    "date": "2026-10-08T10:16:08.435Z",
+    "updatedAt": "2026-10-08T10:16:08.435Z",
+    "updatedBy": "Santhosh Shanmugam",
+    "updatedByPhoto": "https://lh3.googleusercontent.com/a/ACg8ocJbsQQd9QUvAQveTOEXgyH1WVnsYUDrhvRiE0L6npOVbG0wwYWJ=s96-c",
+    "description": "In the rapidly evolving landscape of Artificial Intelligence, the transition from simple prompt-response models to autonomous, goal-oriented agents represents t",
+    "tags": [
+      "deepagents",
+      "agent",
+      "harness",
+      "execution",
+      "tools",
+      "step",
+      "langchain",
+      "reasoning"
+    ],
+    "cover": "",
+    "canonical": "https://saandy.in/blog/deepagents-mastering-autonomous-workflows-with-the-harness-framework-by-langchain",
+    "seoTitle": "DeepAgents: Mastering Autonomous Workflows with the Harness Framework by LangChain",
+    "seoDescription": "In the rapidly evolving landscape of Artificial Intelligence, the transition from simple prompt-response models to autonomous, goal-oriented agents represents t",
+    "seoKeywords": [
+      "deepagents",
+      "agent",
+      "harness",
+      "execution",
+      "tools",
+      "step",
+      "langchain",
+      "reasoning",
+      "observability",
+      "autonomous"
+    ],
+    "status": "draft"
   }
 ]
